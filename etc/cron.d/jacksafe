@@ -1,0 +1,4 @@
+# /etc/cron.d/jacksafe: crontab fragment for JackSafe
+
+# Look for and purge jackuser generated stuff every 10 seconds
+00,10 *  * * *  root [ /opt/jacksafe/bin/clear-reset.sh ] 

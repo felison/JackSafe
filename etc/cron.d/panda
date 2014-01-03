@@ -1,4 +1,0 @@
-# /etc/cron.d/panda: crontab fragment for panda
-
-# Look for and purge panda generated good and bad stuff every 10 seconds
-00,10 *  * * *  root [ /opt/panda/bin/clear-reset.sh ] 
