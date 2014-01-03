@@ -1,0 +1,10 @@
+Package: Panda
+Version: 0.1
+Section: misc
+Priority: extra
+Architecture: all
+Depends: 
+Installed-Size: 3000
+Maintainer: Fred de Borst <felison@gmx.net>
+Homepage: www.jacklinx.nl
+Description: Student protection package for JackLinx
